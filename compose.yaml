@@ -7,3 +7,7 @@ services:
     platform: ${PLATFORM:-linux/amd64}
     container_name: ${STABLE_HOSTNAME:-openclaw-test}
     env_file: .env
+    ports:
+      - "18789:18789"
+      - "4040:4040" # ngrok dashboard
+      - "2222:22"   # ssh

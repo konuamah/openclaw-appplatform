@@ -9,7 +9,6 @@ source_env_prefix OPENCLAW_
 persist_env_var OPENCLAW_ \
   GRADIENT_API_KEY=change-me \
   TAILSCALE_ENABLE="${TAILSCALE_ENABLE:-false}" \
-  TS_SOCKET="${TS_SOCKET}" \
   TS_EXTRA_ARGS="${TS_EXTRA_ARGS}" \
   TS_HOSTNAME="${TS_HOSTNAME}" \
   TS_STATE_DIR="${TS_STATE_DIR}" \

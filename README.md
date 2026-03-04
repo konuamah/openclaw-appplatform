@@ -8,12 +8,13 @@ Deploy [OpenClaw](https://github.com/openclaw/openclaw) - a multi-channel AI mes
 
 | Stage                   | What You Get            | Access Method        |
 |-------------------------|-------------------------|----------------------|
+| **0. Local PC**         | Personal Assistant      | [Local Guide](LOCAL.md)|
 | **1. CLI Only**         | Gateway + CLI           | `doctl apps console` |
 | **2. + Web UI + ngrok** | Control UI + Public URL | ngrok URL            |
 | **3. + Tailscale**      | Private Network         | Tailscale hostname   |
 | **+ Persistence**       | Data survives restarts  | DO Spaces            |
 
-**Start simple, add features as needed.** Most users start with Stage 2 (ngrok) for the easiest setup.
+**Start simple, add features as needed.** Most users start with Stage 0 (Local) or Stage 2 (ngrok) for the easiest setup.
 
 ---
 
